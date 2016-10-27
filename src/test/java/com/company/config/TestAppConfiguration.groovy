@@ -1,6 +1,6 @@
 package com.company.config;
 
-import com.company.dao.SimpleDao;
+import com.company.dao.FirstDao;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration
 import org.springframework.context.annotation.Primary;
@@ -12,7 +12,7 @@ public class TestAppConfiguration {
 
     @Bean
     @Primary
-    public SimpleDao dummyDao() {
-        return new SimpleDao("dummy simple dao");
+    public FirstDao dummyDao() {
+        return new FirstDao("dummy simple dao");
     }
 }

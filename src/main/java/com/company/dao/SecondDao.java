@@ -3,13 +3,13 @@ package com.company.dao;
 import org.springframework.stereotype.Component;
 
 @Component
-public class SimpleDao {
+public class SecondDao {
     private String testField;
 
-    public SimpleDao() {
+    public SecondDao() {
     }
 
-    public SimpleDao(String testField) {
+    public SecondDao(String testField) {
         this.testField = testField;
     }
 
